@@ -4,8 +4,8 @@ name = "js-rpc-web"
 compatibility_flags = ["nodejs_compat"]
 
 services = [
-  { binding = "CALC", service = "calc" },
-  { binding = "BLOG", service = "blog" }
+  { binding = "CALC", service = "calc", environment = "production" },
+  { binding = "BLOG", service = "blog", environment = "production" }
 ]
 
 [dev]
