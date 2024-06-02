@@ -7,7 +7,7 @@ compatibility_flags = ["nodejs_compat"]
 [[d1_databases]]
 binding = "DB"
 database_name = "js-rpc-blog-app"
-database_id = "83789f49-111e-40d8-a18e-dbc04a97b14d" # replace it with your database id
+database_id = "c98266a9-b7d3-43fa-94c2-7aa54318a2a2" # replace it with your database id
 migrations_dir = "drizzle/migrations"
 
 [dev]
